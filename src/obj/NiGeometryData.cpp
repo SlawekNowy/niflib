@@ -684,7 +684,7 @@ void NiGeometryData::SetBound(Vector3 const & center, float radius)
 }
 
 
-byte NiGeometryData::GetTspaceFlag() const {
+unsigned char NiGeometryData::GetTspaceFlag() const {
    return (numUvSets | bsNumUvSets) >> 8;
 }
 

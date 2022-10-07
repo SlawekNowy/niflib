@@ -569,7 +569,7 @@ void bhkRigidBody::UpdateMassProperties(float density, bool solid, float mass)
 	}
 }
 
-array<7,unsigned short> bhkRigidBody::GetUnknown7Shorts() const {
+Niflib::array<7,unsigned short> bhkRigidBody::GetUnknown7Shorts() const {
 	return unknown7Shorts;
 }
 

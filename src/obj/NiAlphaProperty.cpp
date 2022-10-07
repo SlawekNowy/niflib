@@ -117,7 +117,7 @@ void NiAlphaProperty::SetFlags( unsigned short n ) {
 	flags = n;
 }
 
-byte NiAlphaProperty::GetTestThreshold() const {
+unsigned char NiAlphaProperty::GetTestThreshold() const {
 	return threshold;
 }
 

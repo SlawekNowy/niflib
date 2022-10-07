@@ -233,7 +233,7 @@ void bhkMoppBvTreeShape::SetMaterial( HavokMaterial value ) {
 	material = value;
 }
 
-vector<byte> bhkMoppBvTreeShape::GetMoppCode() const {
+vector<unsigned char> bhkMoppBvTreeShape::GetMoppCode() const {
 	return moppData;
 }
 
