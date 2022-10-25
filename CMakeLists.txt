@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 project(niflib)
 file(STRINGS "VERSION" VERSION)
 
-include_directories("include")
+include_directories("include" "${DEPENDENCY_QHULL_INCLUDE}")
 
 SET(sources
 src/RefObject.cpp
